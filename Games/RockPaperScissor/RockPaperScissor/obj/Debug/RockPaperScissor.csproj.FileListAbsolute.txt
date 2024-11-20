@@ -1,0 +1,10 @@
+C:\Users\bill-\Desktop\Studio 2017 Files\RockPaperScissor\RockPaperScissor\bin\Debug\RockPaperScissor.exe.config
+C:\Users\bill-\Desktop\Studio 2017 Files\RockPaperScissor\RockPaperScissor\bin\Debug\RockPaperScissor.exe
+C:\Users\bill-\Desktop\Studio 2017 Files\RockPaperScissor\RockPaperScissor\bin\Debug\RockPaperScissor.pdb
+C:\Users\bill-\Desktop\Studio 2017 Files\RockPaperScissor\RockPaperScissor\obj\Debug\RockPaperScissor.csprojAssemblyReference.cache
+C:\Users\bill-\Desktop\Studio 2017 Files\RockPaperScissor\RockPaperScissor\obj\Debug\RockPaperScissor.Form1.resources
+C:\Users\bill-\Desktop\Studio 2017 Files\RockPaperScissor\RockPaperScissor\obj\Debug\RockPaperScissor.Properties.Resources.resources
+C:\Users\bill-\Desktop\Studio 2017 Files\RockPaperScissor\RockPaperScissor\obj\Debug\RockPaperScissor.csproj.GenerateResource.cache
+C:\Users\bill-\Desktop\Studio 2017 Files\RockPaperScissor\RockPaperScissor\obj\Debug\RockPaperScissor.csproj.CoreCompileInputs.cache
+C:\Users\bill-\Desktop\Studio 2017 Files\RockPaperScissor\RockPaperScissor\obj\Debug\RockPaperScissor.exe
+C:\Users\bill-\Desktop\Studio 2017 Files\RockPaperScissor\RockPaperScissor\obj\Debug\RockPaperScissor.pdb

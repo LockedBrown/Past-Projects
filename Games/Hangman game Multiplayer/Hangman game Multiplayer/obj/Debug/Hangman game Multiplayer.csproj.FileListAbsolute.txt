@@ -1,0 +1,7 @@
+G:\Studio 2017 Files\Hangman game Multiplayer\Hangman game Multiplayer\bin\Debug\Hangman game Multiplayer.exe.config
+G:\Studio 2017 Files\Hangman game Multiplayer\Hangman game Multiplayer\bin\Debug\Hangman game Multiplayer.exe
+G:\Studio 2017 Files\Hangman game Multiplayer\Hangman game Multiplayer\bin\Debug\Hangman game Multiplayer.pdb
+G:\Studio 2017 Files\Hangman game Multiplayer\Hangman game Multiplayer\obj\Debug\Hangman game Multiplayer.csprojAssemblyReference.cache
+G:\Studio 2017 Files\Hangman game Multiplayer\Hangman game Multiplayer\obj\Debug\Hangman game Multiplayer.csproj.CoreCompileInputs.cache
+G:\Studio 2017 Files\Hangman game Multiplayer\Hangman game Multiplayer\obj\Debug\Hangman game Multiplayer.exe
+G:\Studio 2017 Files\Hangman game Multiplayer\Hangman game Multiplayer\obj\Debug\Hangman game Multiplayer.pdb

@@ -1,0 +1,50 @@
+C:\Users\bill-\Desktop\All folders\Folders\Studio 2017 Files\Live Currency Converter\Live Currency Converter\bin\Debug\Live Currency Converter.exe.config
+C:\Users\bill-\Desktop\All folders\Folders\Studio 2017 Files\Live Currency Converter\Live Currency Converter\bin\Debug\Live Currency Converter.exe
+C:\Users\bill-\Desktop\All folders\Folders\Studio 2017 Files\Live Currency Converter\Live Currency Converter\bin\Debug\Live Currency Converter.pdb
+C:\Users\bill-\Desktop\All folders\Folders\Studio 2017 Files\Live Currency Converter\Live Currency Converter\obj\Debug\Live Currency Converter.csprojAssemblyReference.cache
+C:\Users\bill-\Desktop\All folders\Folders\Studio 2017 Files\Live Currency Converter\Live Currency Converter\obj\Debug\Live_Currency_Converter.Form1.resources
+C:\Users\bill-\Desktop\All folders\Folders\Studio 2017 Files\Live Currency Converter\Live Currency Converter\obj\Debug\Live_Currency_Converter.Properties.Resources.resources
+C:\Users\bill-\Desktop\All folders\Folders\Studio 2017 Files\Live Currency Converter\Live Currency Converter\obj\Debug\Live Currency Converter.csproj.GenerateResource.cache
+C:\Users\bill-\Desktop\All folders\Folders\Studio 2017 Files\Live Currency Converter\Live Currency Converter\obj\Debug\Live Currency Converter.csproj.CoreCompileInputs.cache
+C:\Users\bill-\Desktop\All folders\Folders\Studio 2017 Files\Live Currency Converter\Live Currency Converter\obj\Debug\Live Currency Converter.exe
+C:\Users\bill-\Desktop\All folders\Folders\Studio 2017 Files\Live Currency Converter\Live Currency Converter\obj\Debug\Live Currency Converter.pdb
+E:\College\SOFTWARE DEVELOPMENT\Assignment 3\Live Currency Converter\Live Currency Converter\bin\Debug\Live Currency Converter.exe.config
+E:\College\SOFTWARE DEVELOPMENT\Assignment 3\Live Currency Converter\Live Currency Converter\bin\Debug\Live Currency Converter.exe
+E:\College\SOFTWARE DEVELOPMENT\Assignment 3\Live Currency Converter\Live Currency Converter\bin\Debug\Live Currency Converter.pdb
+E:\College\SOFTWARE DEVELOPMENT\Assignment 3\Live Currency Converter\Live Currency Converter\obj\Debug\Live Currency Converter.csprojAssemblyReference.cache
+E:\College\SOFTWARE DEVELOPMENT\Assignment 3\Live Currency Converter\Live Currency Converter\obj\Debug\Live_Currency_Converter.Form1.resources
+E:\College\SOFTWARE DEVELOPMENT\Assignment 3\Live Currency Converter\Live Currency Converter\obj\Debug\Live_Currency_Converter.Properties.Resources.resources
+E:\College\SOFTWARE DEVELOPMENT\Assignment 3\Live Currency Converter\Live Currency Converter\obj\Debug\Live Currency Converter.csproj.GenerateResource.cache
+E:\College\SOFTWARE DEVELOPMENT\Assignment 3\Live Currency Converter\Live Currency Converter\obj\Debug\Live Currency Converter.csproj.CoreCompileInputs.cache
+E:\College\SOFTWARE DEVELOPMENT\Assignment 3\Live Currency Converter\Live Currency Converter\obj\Debug\Live Currency Converter.exe
+E:\College\SOFTWARE DEVELOPMENT\Assignment 3\Live Currency Converter\Live Currency Converter\obj\Debug\Live Currency Converter.pdb
+E:\College\SOFTWARE DEVELOPMENT\Assignment 3\Live Currency Converter before survey - Copy\Live Currency Converter\bin\Debug\Live Currency Converter.exe.config
+E:\College\SOFTWARE DEVELOPMENT\Assignment 3\Live Currency Converter before survey - Copy\Live Currency Converter\bin\Debug\Live Currency Converter.exe
+E:\College\SOFTWARE DEVELOPMENT\Assignment 3\Live Currency Converter before survey - Copy\Live Currency Converter\bin\Debug\Live Currency Converter.pdb
+E:\College\SOFTWARE DEVELOPMENT\Assignment 3\Live Currency Converter before survey - Copy\Live Currency Converter\obj\Debug\Live Currency Converter.csprojAssemblyReference.cache
+E:\College\SOFTWARE DEVELOPMENT\Assignment 3\Live Currency Converter before survey - Copy\Live Currency Converter\obj\Debug\Live_Currency_Converter.Form1.resources
+E:\College\SOFTWARE DEVELOPMENT\Assignment 3\Live Currency Converter before survey - Copy\Live Currency Converter\obj\Debug\Live_Currency_Converter.Properties.Resources.resources
+E:\College\SOFTWARE DEVELOPMENT\Assignment 3\Live Currency Converter before survey - Copy\Live Currency Converter\obj\Debug\Live Currency Converter.csproj.GenerateResource.cache
+E:\College\SOFTWARE DEVELOPMENT\Assignment 3\Live Currency Converter before survey - Copy\Live Currency Converter\obj\Debug\Live Currency Converter.csproj.CoreCompileInputs.cache
+E:\College\SOFTWARE DEVELOPMENT\Assignment 3\Live Currency Converter before survey - Copy\Live Currency Converter\obj\Debug\Live Currency Converter.exe
+E:\College\SOFTWARE DEVELOPMENT\Assignment 3\Live Currency Converter before survey - Copy\Live Currency Converter\obj\Debug\Live Currency Converter.pdb
+E:\College\SOFTWARE DEVELOPMENT\Assignment 3\Live Currency Converter after survey\Live Currency Converter\bin\Debug\Live Currency Converter.exe.config
+E:\College\SOFTWARE DEVELOPMENT\Assignment 3\Live Currency Converter after survey\Live Currency Converter\bin\Debug\Live Currency Converter.exe
+E:\College\SOFTWARE DEVELOPMENT\Assignment 3\Live Currency Converter after survey\Live Currency Converter\bin\Debug\Live Currency Converter.pdb
+E:\College\SOFTWARE DEVELOPMENT\Assignment 3\Live Currency Converter after survey\Live Currency Converter\obj\Debug\Live Currency Converter.csprojAssemblyReference.cache
+E:\College\SOFTWARE DEVELOPMENT\Assignment 3\Live Currency Converter after survey\Live Currency Converter\obj\Debug\Live_Currency_Converter.Form1.resources
+E:\College\SOFTWARE DEVELOPMENT\Assignment 3\Live Currency Converter after survey\Live Currency Converter\obj\Debug\Live_Currency_Converter.Properties.Resources.resources
+E:\College\SOFTWARE DEVELOPMENT\Assignment 3\Live Currency Converter after survey\Live Currency Converter\obj\Debug\Live Currency Converter.csproj.GenerateResource.cache
+E:\College\SOFTWARE DEVELOPMENT\Assignment 3\Live Currency Converter after survey\Live Currency Converter\obj\Debug\Live Currency Converter.csproj.CoreCompileInputs.cache
+E:\College\SOFTWARE DEVELOPMENT\Assignment 3\Live Currency Converter after survey\Live Currency Converter\obj\Debug\Live Currency Converter.exe
+E:\College\SOFTWARE DEVELOPMENT\Assignment 3\Live Currency Converter after survey\Live Currency Converter\obj\Debug\Live Currency Converter.pdb
+F:\College\SOFTWARE DEVELOPMENT\Assignment 3\Live Currency Converter after survey\Live Currency Converter\bin\Debug\Live Currency Converter.exe.config
+F:\College\SOFTWARE DEVELOPMENT\Assignment 3\Live Currency Converter after survey\Live Currency Converter\bin\Debug\Live Currency Converter.exe
+F:\College\SOFTWARE DEVELOPMENT\Assignment 3\Live Currency Converter after survey\Live Currency Converter\bin\Debug\Live Currency Converter.pdb
+F:\College\SOFTWARE DEVELOPMENT\Assignment 3\Live Currency Converter after survey\Live Currency Converter\obj\Debug\Live Currency Converter.csprojAssemblyReference.cache
+F:\College\SOFTWARE DEVELOPMENT\Assignment 3\Live Currency Converter after survey\Live Currency Converter\obj\Debug\Live_Currency_Converter.Form1.resources
+F:\College\SOFTWARE DEVELOPMENT\Assignment 3\Live Currency Converter after survey\Live Currency Converter\obj\Debug\Live_Currency_Converter.Properties.Resources.resources
+F:\College\SOFTWARE DEVELOPMENT\Assignment 3\Live Currency Converter after survey\Live Currency Converter\obj\Debug\Live Currency Converter.csproj.GenerateResource.cache
+F:\College\SOFTWARE DEVELOPMENT\Assignment 3\Live Currency Converter after survey\Live Currency Converter\obj\Debug\Live Currency Converter.csproj.CoreCompileInputs.cache
+F:\College\SOFTWARE DEVELOPMENT\Assignment 3\Live Currency Converter after survey\Live Currency Converter\obj\Debug\Live Currency Converter.exe
+F:\College\SOFTWARE DEVELOPMENT\Assignment 3\Live Currency Converter after survey\Live Currency Converter\obj\Debug\Live Currency Converter.pdb

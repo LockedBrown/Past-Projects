@@ -1,0 +1,20 @@
+C:\Users\bill-\Desktop\Folders\Studio 2017 Files\Hammurabi - 2\Hammurabi - 2\bin\Debug\Hammurabi - 2.exe.config
+C:\Users\bill-\Desktop\Folders\Studio 2017 Files\Hammurabi - 2\Hammurabi - 2\bin\Debug\Hammurabi - 2.exe
+C:\Users\bill-\Desktop\Folders\Studio 2017 Files\Hammurabi - 2\Hammurabi - 2\bin\Debug\Hammurabi - 2.pdb
+C:\Users\bill-\Desktop\Folders\Studio 2017 Files\Hammurabi - 2\Hammurabi - 2\obj\Debug\Hammurabi - 2.csprojAssemblyReference.cache
+C:\Users\bill-\Desktop\Folders\Studio 2017 Files\Hammurabi - 2\Hammurabi - 2\obj\Debug\Hammurabi___2.Form1.resources
+C:\Users\bill-\Desktop\Folders\Studio 2017 Files\Hammurabi - 2\Hammurabi - 2\obj\Debug\Hammurabi___2.Properties.Resources.resources
+C:\Users\bill-\Desktop\Folders\Studio 2017 Files\Hammurabi - 2\Hammurabi - 2\obj\Debug\Hammurabi - 2.csproj.GenerateResource.cache
+C:\Users\bill-\Desktop\Folders\Studio 2017 Files\Hammurabi - 2\Hammurabi - 2\obj\Debug\Hammurabi - 2.csproj.CoreCompileInputs.cache
+C:\Users\bill-\Desktop\Folders\Studio 2017 Files\Hammurabi - 2\Hammurabi - 2\obj\Debug\Hammurabi - 2.exe
+C:\Users\bill-\Desktop\Folders\Studio 2017 Files\Hammurabi - 2\Hammurabi - 2\obj\Debug\Hammurabi - 2.pdb
+E:\Studio 2017 Files\Hammurabi - 2\Hammurabi - 2\bin\Debug\Hammurabi - 2.exe.config
+E:\Studio 2017 Files\Hammurabi - 2\Hammurabi - 2\bin\Debug\Hammurabi - 2.exe
+E:\Studio 2017 Files\Hammurabi - 2\Hammurabi - 2\bin\Debug\Hammurabi - 2.pdb
+E:\Studio 2017 Files\Hammurabi - 2\Hammurabi - 2\obj\Debug\Hammurabi - 2.csprojAssemblyReference.cache
+E:\Studio 2017 Files\Hammurabi - 2\Hammurabi - 2\obj\Debug\Hammurabi___2.Form1.resources
+E:\Studio 2017 Files\Hammurabi - 2\Hammurabi - 2\obj\Debug\Hammurabi___2.Properties.Resources.resources
+E:\Studio 2017 Files\Hammurabi - 2\Hammurabi - 2\obj\Debug\Hammurabi - 2.csproj.GenerateResource.cache
+E:\Studio 2017 Files\Hammurabi - 2\Hammurabi - 2\obj\Debug\Hammurabi - 2.csproj.CoreCompileInputs.cache
+E:\Studio 2017 Files\Hammurabi - 2\Hammurabi - 2\obj\Debug\Hammurabi - 2.exe
+E:\Studio 2017 Files\Hammurabi - 2\Hammurabi - 2\obj\Debug\Hammurabi - 2.pdb

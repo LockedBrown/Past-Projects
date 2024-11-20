@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="zxx">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="stylesheet" href="styles.css" />
+		<style>
+			html {
+				scroll-behavior: smooth;
+			}
+			body {
+			}
+			::selection{
+				background:rgb(230, 110, 80);
+			}
+			header {
+				display: flex;
+				width: 100%;
+				height: 390px;
+				background-image: url("../Images/imageFour.jpg");
+				background-position: top;
+				background-size: 100%;
+				background-repeat: no-repeat;
+				align-items: center;
+				justify-content: center;
+			}
+			header .headerbox {
+				color: rgb(242, 242, 242);
+				text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+				text-align: center;
+				font-size: 2rem;
+			}
+			.mid {
+				padding-top: 20px;
+				width: 100%;
+				padding-bottom: 20px;
+				
+			}
+			.info-container{
+				margin: 0 auto;
+				width: 90%;
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+			}
+			.mid .info {
+				width: 40%;
+				padding: 20px;
+				margin: 0 20px;
+				height: 400px;
+				color: rgb(15, 15, 15);
+				background: rgb(243, 243, 243);
+				box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+				overflow-y: hidden;
+			}
+
+			.info-logo {
+				position: relative;
+				width: 80px;
+				height: 80px;
+				background-color: black;
+				color: white;
+				border-radius: 50%;
+				display: flex;
+				margin: 0 auto;
+				justify-content: center;
+				align-items: center;
+				z-index: -1;
+				font-size: 24px;
+				font-weight: 700;
+				transition: 1s ;
+				text-align: center;
+			}
+			.info:nth-child(1) .info-logo {
+				box-shadow: 0 0 0 0 #2196f3;
+				background: #2196f3;
+			}
+			.info:nth-child(1):hover .info-logo {
+				box-shadow: 0 0 0 2000px #2196f3;
+				background: #2196f3;
+			}
+			.info:nth-child(2) .info-logo {
+				box-shadow: 0 0 0 0 #0f5792;
+				background: #0f5792;
+			}
+			.info:nth-child(2):hover .info-logo {
+				box-shadow: 0 0 0 2000px #0f5792;
+				background: #0f5792;
+			}
+			.info:nth-child(3) .info-logo {
+				box-shadow: 0 0 0 0 #2b47e2;
+				background: #2b47e2;
+			}
+			.info:nth-child(3):hover .info-logo {
+				box-shadow: 0 0 0 2000px #2b47e2;
+				background: #2b47e2;
+			}
+			.info:nth-child(4) .info-logo {
+				box-shadow: 0 0 0 0 #19748b;
+				background: #19748b;
+			}
+			.info:nth-child(4):hover .info-logo {
+				box-shadow: 0 0 0 2000px #19748b;
+				background: #19748b;
+			}
+			.info:hover .content,
+			.info:hover .content p {
+				color: white;
+			}
+
+
+
+			.mid .info h1 {
+				text-decoration: underline;
+				text-align: center;
+			}
+			.content {
+				position: relative;
+				z-index: 1;
+				transition: 1s;
+			}
+			.mid .info p {
+				font-size: 1rem;
+				text-align: center;
+				padding: 10px;
+				color: rgb(83, 83, 83);
+			}
+			.mid .info h3,
+			.mid .info h2 {
+				text-decoration: underline;
+				letter-spacing: 1px;
+				padding: 10px 5px 5px 0;
+			}
+			.mid .info a {
+				color: black;
+				text-decoration: none;
+				padding: 20px 20px;
+			}
+			.mid .info .infoBtn {
+				margin: 20px auto 0 auto;
+				border-radius: 4px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				text-align: center;
+				width: 200px;
+				height: 50px;
+				cursor: pointer;
+				background: rgb(236, 236, 236);
+				box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+			}
+
+			@media only screen and (max-width: 1024px){
+				.info-container{
+				margin: 0 auto;
+				width: 100%;
+				display: block;
+
+			}
+			.mid .info {
+				width: 90%;
+				padding: 20px;
+				margin: 20px auto;
+				height: 400px;
+				color: rgb(165, 165, 165);
+				background: rgb(243, 243, 243);
+				box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+				overflow-y: hidden;
+			}
+
+			}
+			@media only screen and (max-width: 680px) {
+				.info:nth-child(1) {
+					margin-top: -10px;
+				}
+
+			}
+			@media only screen and (max-width: 550px) {
+				.info:nth-child(1) {
+					margin-top: -90px;
+				}
+			}
+		</style>
+		<link
+			href="https://fonts.googleapis.com/css?family=Muli&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Hot Beans</title>
+	</head>
+	<body>
+		<nav class="navbar">
+			<div class="logo">
+				<h4>Hot Beans</h4>
+			</div>
+			<ul class="nav-links">
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="infos.html">infos</a>
+				</li>
+				<li>
+					<a href="application.html">Apply</a>
+				</li>
+				<li>
+					<a href="staff.html">Staff</a>
+				</li>
+
+				<li>
+					<a href="info.html">Info</a>
+				</li>
+			</ul>
+			
+
+			<div class="burger">
+				<div class="line1"></div>
+				<div class="line2"></div>
+				<div class="line3"></div>
+			</div>
+		</nav>
+
+		<header>
+			<div class="headerbox">
+				<h1>info</h1>
+			</div>
+		</header>
+		<div class="mid">
+			<div class="info-container">
+				<div class="info">
+					<div class="content">
+						<div class="info-logo"><h1>01</h1></div>
+						<h1>w3schools</h1>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus similique assumenda quidem nesciunt vel blanditiis, alias odit error tenetur eius.</p>
+						<div class="infoBtn">
+							<a href="https://www.w3schools.com/" target="_blank">Go to Website</a>
+						</div>
+					</div>
+				</div>
+				<div class="info">
+					<div class="content">
+						<div class="info-logo"><h1>02</h1></div>
+						<h1>codecademy</h1>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus similique assumenda quidem nesciunt vel blanditiis, alias odit error tenetur eius.</p>
+						<div class="infoBtn">
+							<a href="https://www.codecademy.com/learn/learn-html" target="_blank">Go to Website</a>
+						</div>
+					</div>
+				</div>
+				<div class="info">
+					<div class="content">
+						<div class="info-logo"><h1>03</h1></div>
+						<h1>learncs</h1>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus similique assumenda quidem nesciunt vel blanditiis, alias odit error tenetur eius.</p>
+						<div class="infoBtn">
+							<a href="https://www.learncs.org/" target="_blank">Go to Website</a>
+						</div>
+					</div>
+				</div>
+				<div class="info">
+					<div class="content">
+						<div class="info-logo"><h1>04</h1></div>
+						<h1>learn js</h1>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus similique assumenda quidem nesciunt vel blanditiis, alias odit error tenetur eius.</p>
+						<div class="infoBtn">
+							<a href="https://www.learn-js.org/" target="_blank">Go to Website</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<div class="mid">
+			<div class="info-container">
+				<div class="info">
+					<div class="content">
+						<div class="info-logo"><h1>05</h1></div>
+						<h1>YouTube</h1>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus similique assumenda quidem nesciunt vel blanditiis, alias odit error tenetur eius.</p>
+						<div class="infoBtn">
+							<a href="https://www.youtube.com" target="_blank">Go to Website</a>
+						</div>
+					</div>
+				</div>
+				<div class="info">
+					<div class="content">
+						<div class="info-logo"><h1>06</h1></div>
+						<h1>SoloLearn</h1>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus similique assumenda quidem nesciunt vel blanditiis, alias odit error tenetur eius.</p>
+						<div class="infoBtn">
+							<a href="https://www.sololearn.com/">Go to Website</a>
+						</div>
+					</div>
+				</div>
+				<div class="info">
+					<div class="content">
+						<div class="info-logo"><h1>07</h1></div>
+						<h1>Udemy</h1>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus similique assumenda quidem nesciunt vel blanditiis, alias odit error tenetur eius.</p>
+						<div class="infoBtn">
+							<a href="https://www.udemy.com/">Go to Website</a>
+						</div>
+					</div>
+				</div>
+				<div class="info">
+					<div class="content">
+						<div class="info-logo"><h1>08</h1></div>
+						<h1>edX</h1>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus similique assumenda quidem nesciunt vel blanditiis, alias odit error tenetur eius.</p>
+						<div class="infoBtn">
+							<a href="https://www.edx.org/">Go to Website</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<footer style="">
+			<h3>©Copyright</h3>
+		</footer>
+
+		<script
+			src="https://kit.fontawesome.com/6c8e82b604.js"
+			crossorigin="anonymous"
+		></script>
+		<script src="app.js"></script>
+	</body>
+</html>

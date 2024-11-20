@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="zxx">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="stylesheet" href="styles.css" />
+		<style>
+			html {
+				scroll-behavior: smooth;
+			}
+			.mid {
+				
+				padding-top: 30px;
+				margin-bottom: -10px;
+				height: 560px;
+				width: 100%;
+				background: rgb(246, 246, 246);
+			}
+			iframe {
+				width: 100%;
+				height: 345px;
+				border: 0;
+				border-radius: 4px;
+				padding-top: 15px;
+			}
+
+			.mid-box {
+				padding: 10px;
+				margin: 6px 6px;
+				width: 32%;
+				height: 500px;
+				float: left;
+				box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+			}
+			.mid-box img {
+				width: 100%;
+			}
+
+			.mid-box p {
+				font-size: 20px;
+				margin-top: 5px;
+				text-align: justify;
+				padding: 0 10px;
+			}
+
+			.mid-box h1 {
+				color: rgba(180, 180, 180, 1);
+				padding: 10px 0;
+				font-size: 32px;
+				text-align: center;
+			}
+			.mid-box:hover h1{
+				color: rgb(143, 190, 219);
+				margin-top: 10px;
+				text-decoration: underline;
+			}
+			.mid-box:hover img{
+				box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+			}
+			.mid-box:hover{
+				box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+			}
+			.mid-box:hover p{
+				margin-top: 20px;
+			}
+
+		
+
+			.info-title {
+				background: url("../Images/services.jpg");
+				width: 100%;
+				height: 300px;
+				border-top: 2px solid black;
+
+				color: white;
+				text-align: center;
+				line-height: 300px;
+				font-size: 40px;
+				letter-spacing: 3px;
+				margin-top: 20px;
+			}
+
+			.block {
+				
+				position: relative;
+			}
+			.moving-glow:before,
+			.moving-glow:after {
+				content: "";
+				position: absolute;
+				left: 0px;
+				border-radius: 4px;
+				top: 0px;
+				background: linear-gradient(
+					45deg,
+					#60dbcf,
+					#0000ff,
+					#2b658b,
+					#3b61ca,
+					#0e1553,
+					#12395e,
+					#0000ff,
+					#008cff,
+					#0059ff,
+					#376daa
+				);
+				background-size: 400%;
+				width: calc(100% + 0px);
+				height: calc(100% + 0px);
+				z-index: -1;
+				animation: anim-moving-glow 20s linear infinite;
+			}
+
+			@keyframes anim-moving-glow {
+				0% {
+					background-position: 0 0;
+				}
+				50% {
+					background-position: 400% 0;
+				}
+				100% {
+					background-position: 0 0;
+				}
+			}
+
+			.moving-glow:after {
+				filter: blur(30px);
+			}
+			.services {
+				width: 85%;
+				height: 400px;
+				overflow: auto;
+				margin: 50px auto;
+			}
+
+			.services-box {
+				width: 100%;
+				height: 40%;
+				background: rgb(87, 139, 171);
+				color: rgb(246, 246, 246);
+				padding: 15px;
+				border-top: 1px rgb(143, 190, 219) solid;
+			}
+			.services-box h3 {
+				font-size: 1.5em;
+				text-decoration: underline;
+			}
+			.services-box p {
+				padding: 10px 20px;
+				font-size: 1.3em;
+			}
+			.services-body {
+				display: flex;
+				justify-content: center;
+				width: 100%;
+			}
+			.services-container {
+				width: 100%;
+				display: flex;
+				align-items: center;
+				justify-content: space-around;
+			}
+			.services-container .boxService {
+				position: relative;
+				width: 400px;
+				padding: 40px;
+				background-color: #fff;
+				box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+				border-radius: 4px;
+				margin: 20px;
+				box-sizing: border-box;
+				overflow: hidden;
+				text-align: center;
+			}
+			::selection{
+				background:rgb(230, 110, 80);
+			}
+			.services-container .boxService:before {
+				content: "";
+				width: 50%;
+				height: 100%;
+				position: absolute;
+				top: 0;
+				left: 0;
+				background: rgba(255, 255, 255, 0.2);
+				z-index: 2;
+				pointer-events: none;
+			}
+			.services-container .boxService .img-logo {
+				position: relative;
+				width: 80px;
+				height: 80px;
+				background-color: black;
+				color: white;
+				border-radius: 50%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				margin: 0 auto;
+				font-size: 24px;
+				font-weight: 700;
+				transition: 1s;
+				text-align: center;
+			}
+			.services-container .boxService:nth-child(1) .img-logo {
+				box-shadow: 0 0 0 0 #2196f3;
+				background: #2196f3;
+			}
+			.services-container .boxService:nth-child(1):hover .img-logo {
+				box-shadow: 0 0 0 800px #2196f3;
+				background: #2196f3;
+			}
+			.services-container .boxService:nth-child(2) .img-logo {
+				box-shadow: 0 0 0 0 #0359ab;
+				background: #0359ab;
+			}
+			.services-container .boxService:nth-child(2):hover .img-logo {
+				box-shadow: 0 0 0 800px #0359ab;
+				background: #0359ab;
+			}
+			.services-container .boxService:nth-child(3) .img-logo {
+				box-shadow: 0 0 0 0 #008a99;
+				background: #008a99;
+			}
+			.services-container .boxService:nth-child(3):hover .img-logo {
+				box-shadow: 0 0 0 800px #008a99;
+				background: #008a99;
+			}
+
+			.services-container .boxService .services-content {
+				position: relative;
+				z-index: 1;
+				transition: 0.5s;
+			}
+			.services-container .boxService:hover .services-content {
+				color: white;
+			}
+			.services-container .boxService .services-content h3 {
+				font-size: 20px;
+				margin: 10px 0;
+				padding: 0;
+			}
+			.services-container .boxService .services-content p {
+				margin: 0;
+				padding: 0;
+			}
+			.services-container .boxService .services-content a {
+				display: inline-block;
+				padding: 10px 20px;
+				background: white;
+				color: black;
+				font-weight: 500;
+				margin-top: 20px;
+				border-radius: 4px;
+				text-decoration: none;
+				box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+			}
+
+			.contact-us {
+				width: 100%;
+				height: 400px;
+
+				background: rgb(246, 246, 246);
+			}
+
+			.location-container {
+				width: 100%;
+				height: 500px;
+				background: rgb(246, 246, 246);
+				padding-top: 30px;
+			}
+			.location-container h1 {
+				font-size: 26px;
+				color: rgb(32, 32, 32);
+			}
+			.location-container p {
+				font-size: 18px;
+				text-align: justify;
+				border-top: rgb(87, 139, 171) 2px solid;
+				padding-top: 10px;
+			}
+			.location-box {
+				box-shadow: 0 3px 6px rgba(0, 0, 0, .3);
+				color: rgb(0, 0, 0);
+				padding: 20px;
+				width: 40%;
+				height: 190px;
+				float: left;
+				background: rgb(246, 246, 246);
+				border-radius: 4px;
+				margin-left: 5%;
+			}
+			/* Locate Us! */
+			.location {
+				float: left;
+				margin-left: 5%;
+				margin-top: -200px;
+				box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+				width: 45%;
+				height: 410px;
+				background: rgb(87, 139, 171);
+
+				padding: 10px;
+				border-radius: 4px;
+			}
+			.location h2 {
+				text-align: center;
+				letter-spacing: 3px;
+				font-size: 26px;
+				color: rgb(236, 236, 236);
+				padding-bottom: 5px;
+				border-bottom: 2px black solid;
+			}
+			/* Contact Us */
+			.contactUs {
+				margin: auto;
+				width: 90%;
+				height: 440px;
+			}
+			.contactUs form h1 {
+				text-align: center;
+				letter-spacing: 3px;
+				font-size: 26px;
+				color: white;
+				padding-bottom: 5px;
+				margin-bottom: 10px;
+				
+				border-bottom: 2px rgb(143, 190, 219) solid;
+			}
+			form {
+				padding: 20px;
+				border-radius: 4px;
+				width: 50%;
+				height: 430px;
+				background: rgb(87, 139, 171);
+				float: left;
+				
+			}
+			input[type="text"] {
+				width: 100%;
+				box-sizing: border-box;
+				display: inline-block;
+				margin-bottom: 10px;
+				border-radius: 4px;
+				padding: 10px;
+			}
+			.contactUs textarea {
+				resize: none;
+				width: 100%;
+				box-sizing: border-box;
+				margin-bottom: 10px;
+				border-radius: 4px;
+				padding: 10px;
+			}
+			.contactUs button {
+				width: 100%;
+				box-sizing: border-box;
+				border-radius: 4px;
+				padding: 10px;
+				background: rgb(143, 190, 219);
+				border: 0px;
+				font-size: 20px;
+				letter-spacing: 5px;
+				text-transform: uppercase;
+				font-weight: bold;
+				color: rgb(87, 139, 171);
+			}
+			.contactUs button:hover {
+				transition-duration: 0.15s;
+				border-bottom: 2px black solid;
+				-webkit-text-stroke-width: 1px;
+				-webkit-text-stroke-color: rgb(87, 139, 171);
+			}
+			.contactUs-text {
+				float: left;
+				width: 45%;
+				margin-left: 5%;
+				height: 440px;
+			}
+			.contactUs-box {
+				width: 100%;
+				border-radius: 4px;
+				height: 203px;
+				color: rgb(236, 236, 236);				padding: 20px;
+				margin-bottom: 4px;
+				box-shadow: 0 3px 6px rgba(0, 0, 0, .3);
+				color: rgb(0, 0, 0);
+				background: rgb(246, 246, 246);
+			}
+
+			.contactUs-box h1 {
+				font-size: 26px;
+				color: rgb(32, 32, 32);
+			}
+			.contactUs-box p {
+				font-size: 18px;
+				text-align: justify;
+				border-top: rgb(87, 139, 171) 2px solid;
+				padding-top: 10px;
+			}
+			#prevBtn {
+				position: absolute;
+				top: 45vh;
+				left: 5%;
+				font-size: 40px;
+				z-index: 10;
+
+				cursor: pointer;
+				color: white;
+			}
+			#nextBtn {
+				position: absolute;
+				top: 45vh;
+				right: 5%;
+				font-size: 40px;
+				z-index: 10;
+
+				cursor: pointer;
+				color: white;
+			}
+			#nextBtn:hover,
+			#prevBtn:hover {
+				animation: hoverEffect forwards 0.1s;
+			}
+			.carousel-container {
+    width: 100%; /* Full width of the viewport */
+    overflow: hidden; /* Hide overflow content */
+    position: relative; /* Ensure relative positioning for the slider */
+}
+
+.carousel-slider {
+    display: flex; /* Align images in a row */
+    transition: transform 0.5s ease; /* Smooth sliding transition */
+    width: calc(100% * [number of images]); /* Adjust dynamically if possible */
+}
+
+.carousel-slider img {
+    width: 100%; /* Each image takes the full width of the container */
+    flex-shrink: 0; /* Prevent images from shrinking */
+    height: auto; /* Maintain aspect ratio */
+}
+			@keyframes wobble {
+				33% {
+					transform: translateX(-10px);
+				}
+				66% {
+					transform: translateX(10px);
+				}
+			}
+
+			.a-contact {
+				display: block;
+				padding: 10px;
+				color: rgb(242, 242, 242);
+				text-decoration: none;
+				letter-spacing: 3px;
+				font-weight: bold;
+				font-size: 18px;
+				transition: 0.3s ease-in-out;
+			}
+			.a-contact:hover {
+				animation: wobble 1s forwards;
+				text-decoration: underline;
+			}
+			.icons {
+				position: absolute;
+
+				display: flex;
+				justify-content: space-around;
+				z-index: 51;
+				top: 90vh;
+				text-align: center;
+				width: 100%;
+				padding-top: 8px;
+				height: 50px;
+			}
+			.social-icon img:hover {
+				animation: wobble 1s forwards;
+			}
+			.social-icon img {
+				width: 50px;
+				height: 50px;
+			}
+
+			@media only screen and (max-width: 1024px) {
+				#nextBtn,
+				#prevBtn {
+					top: 20vh;
+				}
+				.icons {
+					position: absolute;
+					display: block;
+					z-index: 51;
+					top: 35vh;
+					text-align: center;
+					width: 100%;
+				}
+				.social-icon img {
+					width: 50px;
+					height: 50px;
+					margin: 0 40px;
+				}
+				.social-icon img:hover,
+				.a-contact:hover {
+					animation: none;
+				}
+				.contactUs-box:nth-child(1){
+				margin-top: 20px;
+			}
+				.icons a {
+					font-size: 14px;
+				}
+				.carousel-container,
+				.carousel-slider {
+					height: 50vh;
+				}
+				.mid {
+					height: 2100px;
+				}
+				.mid-box {
+					width: 100%;
+					height: 600px;
+					border-bottom: 1px solid gray;
+				}
+
+				.info-title {
+					height: 80px;
+					font-size: 20px;
+					line-height: 80px;
+				}
+
+				.services-body{
+					display: block;
+					justify-content: initial;
+				}
+				.services-container{
+					display: block;
+					align-items: initial;
+					justify-content: initial;
+				}
+				.services-container .boxService {
+				width: 95%;
+			}
+				.services {
+					width: 90%;
+					height: 400px;
+					background: rgb(87, 139, 171);
+				}
+				.services-title {
+					height: 100px;
+				}
+				.moving-glow:before,
+			.moving-glow:after {
+				content: none;
+			}
+
+				.services-box {
+					height: 150px;
+					padding: 20px;
+				}
+				.services-box p {
+					text-align: justify;
+				}
+				.location-container {
+					height: 930px;
+					padding: 0;
+				}
+				.location-box {
+					width: 90%;
+					height: 200px;
+					clear: both;
+					margin-top: 30px;
+				}
+				.location-box p {
+					font-size: 16px;
+				}
+				.location {
+					clear: both;
+					margin-top: 0;
+					width: 90%;
+					height: 404px;
+					background: rgb(87, 139, 171);
+					margin-top: 10px;
+				}
+				.contactUs {
+					margin-top: -60px;
+				}
+				.contactUs form {
+					clear: both;
+					width: 100%;
+					height: 410px;
+				}
+				.contactUs-text {
+					width: 100%;
+					margin-left: 0;
+					margin-bottom: 30px;
+				}
+
+				.contactUs-box {
+					width: 100%;
+				
+				}
+
+			} /* End of query  */
+
+			@media only screen and (max-width: 1025px) {
+				.mid {
+					height: 2200px;
+				}
+				.mid-box {
+					width: 100%;
+					height: 700px;
+					border-bottom: 1px solid gray;
+				}
+			}
+
+			@media only screen and (max-width: 940px) {
+				.mid {
+					height: 2050px;
+				}
+				.mid-box {
+					width: 100%;
+					height: 650px;
+					border-bottom: 1px solid gray;
+				}
+			}
+			@media only screen and (max-width: 750px) {
+				.mid {
+					height: 1680px;
+				}
+				.mid-box {
+					width: 100%;
+					height: 530px;
+					border-bottom: 1px solid gray;
+				}
+
+			}
+		</style>
+		<link
+			href="https://fonts.googleapis.com/css?family=Muli&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Hot Beans</title>
+	</head>
+	<body>
+		<nav class="navbar">
+			<div class="logo">
+				<h4>Hot Beans</h4>
+			</div>
+			<ul class="nav-links">
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="jobs.html">Jobs</a>
+				</li>
+				<li>
+					<a href="application.html">Apply</a>
+				</li>
+				<li>
+					<a href="staff.html">Staff</a>
+				</li>
+
+				<li>
+					<a href="info.html">Info</a>
+				</li>
+			</ul>
+			
+
+			<div class="burger">
+				<div class="line1"></div>
+				<div class="line2"></div>
+				<div class="line3"></div>
+			</div>
+		</nav>
+
+		<div class="carousel-container">
+			<div class="icons">
+				<a href="#location-contact" class="a-contact"
+					>Contact Us<br />
+					Or go to our Social Media</a
+				>
+				<a href="" class="social-icon">
+					<img src="../Images/fbIcon.png" alt="facebook icon"
+				/></a>
+				<a href="" class="social-icon">
+					<img src="../Images/twitterIcon.png" alt="twitter icon"
+				/></a>
+				<a href="" class="social-icon">
+					<img src="../Images/instaIcon.png" alt="instagram icon"
+				/></a>
+			</div>
+			<i class="fas fa-arrow-left" id="prevBtn"></i>
+			<i class="fas fa-arrow-right" id="nextBtn"></i>
+			<div class="carousel-slider">
+				<img src="../Images/imageThree.jpg" id="lastClone" alt="" />
+
+				<img src="../Images/imageOne.jpg" alt="picture of person on rock" />
+				<img src="../Images/jobs-headerImage.jpg" alt="cartoon space image">
+				<img src="../Images/imageFour.jpg" alt="cartoon space image">
+				<img
+					src="../Images/imageTwo.jpg"
+					alt="picture of guy on a mountain edge"
+				/>
+				<img
+					src="../Images/imageThree.jpg"
+					alt="picture of mountains with animals"
+				/>
+				<img src="../Images/imageOne.jpg" id="firstClone" alt="" />
+			</div>
+		</div>
+
+		<div class="mid">
+			<div class="container">
+				<div class="mid-box mid-box-animation" id="boxOne">
+					<img src="../Images/overviewImage.png" alt="Overview image" />
+					<h1>Firm Overview</h1>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+						hic laborum, error eos dicta libero quaerat, suscipit impedit
+						voluptatum earum iure tempore ratione neque, modi illum a numquam.
+						Quos, cupiditate.
+					</p>
+				</div>
+				<div class="mid-box mid-box-animation" id="boxTwo">
+					<img src="../Images/approachImage.jpg" alt="approach image" />
+					<h1>Our Approach</h1>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+						hic laborum, error eos dicta libero quaerat, suscipit impedit
+						voluptatum earum iure tempore ratione neque, modi illum a numquam.
+						Quos, cupiditate.
+					</p>
+				</div>
+				<div class="mid-box mid-box-animation " id="boxThree">
+					<img src="../Images/strategyImage.png" alt="strategey image" />
+					<h1>Our Strategy</h1>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+						hic laborum, error eos dicta libero quaerat, suscipit impedit
+						voluptatum earum iure tempore ratione neque, modi illum a numquam.
+						Quos, cupiditate.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="info-title">
+			<h1>Services</h1>
+		</div>
+
+		<div class="services-body">
+			<div class="services-container">
+				<div class="boxService">
+					<div class="img-logo"><h1>01</h1></div>
+					<div class="services-content">
+						<h3>Website Design</h3>
+						<p>
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+							iusto placeat, debitis consequuntur earum similique quidem ratione
+							commodi quo, porro cumque neque deleniti magni sed omnis sapiente
+							suscipit inventore delectus.
+						</p>
+						<a href="#">Read More</a>
+					</div>
+				</div>
+				<div class="boxService">
+					<div class="img-logo"><h1>02</h1></div>
+					<div class="services-content">
+						<h3>Website Hosting</h3>
+						<p>
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+							iusto placeat, debitis consequuntur earum similique quidem ratione
+							commodi quo, porro cumque neque deleniti magni sed omnis sapiente
+							suscipit inventore delectus.
+						</p>
+						<a href="#">Read More</a>
+					</div>
+				</div>
+				<div class="boxService">
+					<div class="img-logo"><h1>03</h1></div>
+					<div class="services-content">
+						<h3>Website Security</h3>
+						<p>
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+							iusto placeat, debitis consequuntur earum similique quidem ratione
+							commodi quo, porro cumque neque deleniti magni sed omnis sapiente
+							suscipit inventore delectus.
+						</p>
+						<a href="#">Read More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="info-title" style="margin-bottom: 15px;">
+			<h1>Contact Us</h1>
+		</div>
+		<div class="location-container" id="location-contact">
+			<div class="location-box">
+				<h1>We are here..</h1>
+				<p>
+					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione
+					facilis incidunt eligendi ex? Alias unde, voluptatibus repudiandae
+					quos ab quidem nesciunt voluptas, tempore perspiciatis cupiditate enim
+					pariatur, consequuntur corporis dolore.
+				</p>
+			</div>
+			<div class="location-box" style="clear: left; margin-top: 20px;">
+				<h1>We are here..</h1>
+				<p>
+					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione
+					facilis incidunt eligendi ex? Alias unde, voluptatibus repudiandae
+					quos ab quidem nesciunt voluptas, tempore perspiciatis cupiditate enim
+					pariatur, consequuntur corporis dolore.
+				</p>
+			</div>
+			<section class="location">
+				<h2>Locate Us!</h2>
+				<div class="maps">
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2488.6387377193614!2d-3.287589049392113!3d51.40969232556454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486e05899af7688f%3A0x5c693abd4b4e3280!2sCardiff+%26+Vale+College+-+Colcot+Road!5e0!3m2!1sen!2suk!4v1557412727248!5m2!1sen!2suk"
+						allowfullscreen
+					></iframe>
+				</div>
+			</section>
+		</div>
+
+		<div class="contactUs">
+			<form action="POST" class="block moving-glow">
+				<h1>Contact Us!</h1>
+				<input type="text" name="name" placeholder="Name: " />
+				<br />
+				<input type="text" name="email" placeholder="Email: " />
+				<br />
+				<textarea
+					name="message"
+					cols="30"
+					rows="10"
+					placeholder="Message: "
+				></textarea>
+				<br />
+				<button type="submit" name="messageButton">Send!</button>
+			</form>
+
+			<div class="contactUs-text">
+				<div class="contactUs-box" >
+					<h1>Box 1</h1>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint hic
+						quia harum qui nulla cum obcaecati, distinctio laborum, nam
+						perspiciatis placeat nemo quas aspernatur officia vero molestiae ut
+						iste excepturi.
+					</p>
+				</div>
+				<div class="contactUs-box" style="margin-top: 20px;">
+					<h1>Box 1</h1>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint hic
+						quia harum qui nulla cum obcaecati, distinctio laborum, nam
+						perspiciatis placeat nemo quas aspernatur officia vero molestiae ut
+						iste excepturi.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<footer style="clear: both; margin-top: 30px;">
+			<h3>©Copyright</h3>
+		</footer>
+
+		<script
+			src="https://kit.fontawesome.com/6c8e82b604.js"
+			crossorigin="anonymous"
+		></script>
+		<script>
+			const carSlide = document.querySelector(".carousel-slider");
+const carImage = document.querySelectorAll(".carousel-slider img");
+const prevBtn = document.querySelector("#prevBtn");
+const nextBtn = document.querySelector("#nextBtn");
+const logo = document.querySelector(".logo");
+const linkies = document.querySelectorAll(".nav-links a");
+
+let counter = 1;
+const size = carImage[1].clientWidth;
+
+carSlide.style.transform = "translateX(" + -size * counter + "px)";
+
+carSlide.style.transform = "translateX(" + -size * counter + "px)";
+// Changes Nav colours / black or white depending on background
+
+nextBtn.addEventListener("click", () => {
+	if (counter >= carImage.length - 1) return;
+	carSlide.style.transition = "transform 0.8s ease-in-out";
+	console.log(size);
+	counter++;
+	carSlide.style.transform = "translateX(" + -size * counter + "px)";
+});
+
+prevBtn.addEventListener("click", () => {
+	if (counter <= 0) return;
+	carSlide.style.transition = "transform 0.8s ease-in-out";
+	counter--;
+	carSlide.style.transform = "translateX(" + -size * counter + "px)";
+});
+
+carSlide.addEventListener("transitionend", () => {
+	if (carImage[counter].id === "lastClone") {
+		carSlide.style.transition = "none";
+		counter = carImage.length - 2;
+		carSlide.style.transform = "translateX(" + -size * counter + "px)";
+	} else if (carImage[counter].id === "firstClone") {
+		carSlide.style.transition = "none";
+		counter = carImage.length - counter;
+		carSlide.style.transform = "translateX(" + -size * counter + "px)";
+	}
+});
+
+const timeSlide = counted => {
+	let count = counted;
+	count--;
+	btn = document.getElementById("nextBtn");
+
+	if (count < 1) {
+		clearTimeout(timer);
+		btn.click();
+		count = 10;
+	}
+	var timer = setTimeout("timeSlide(" + count + ")", 1000);
+};
+timeSlide(10);
+		</script>
+		<script src="app.js"></script>
+	</body>
+</html>

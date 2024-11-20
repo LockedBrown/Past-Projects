@@ -1,0 +1,14 @@
+G:\Studio 2017 Files\Hangman game\Hangman game\bin\Debug\Hangman game.exe.config
+G:\Studio 2017 Files\Hangman game\Hangman game\bin\Debug\Hangman game.exe
+G:\Studio 2017 Files\Hangman game\Hangman game\bin\Debug\Hangman game.pdb
+G:\Studio 2017 Files\Hangman game\Hangman game\obj\Debug\Hangman game.csprojAssemblyReference.cache
+G:\Studio 2017 Files\Hangman game\Hangman game\obj\Debug\Hangman game.csproj.CoreCompileInputs.cache
+G:\Studio 2017 Files\Hangman game\Hangman game\obj\Debug\Hangman game.exe
+G:\Studio 2017 Files\Hangman game\Hangman game\obj\Debug\Hangman game.pdb
+E:\Coding\C#\Games\Hangman game\Hangman game\bin\Debug\Hangman game.exe.config
+E:\Coding\C#\Games\Hangman game\Hangman game\bin\Debug\Hangman game.exe
+E:\Coding\C#\Games\Hangman game\Hangman game\bin\Debug\Hangman game.pdb
+E:\Coding\C#\Games\Hangman game\Hangman game\obj\Debug\Hangman game.csprojAssemblyReference.cache
+E:\Coding\C#\Games\Hangman game\Hangman game\obj\Debug\Hangman game.csproj.CoreCompileInputs.cache
+E:\Coding\C#\Games\Hangman game\Hangman game\obj\Debug\Hangman game.exe
+E:\Coding\C#\Games\Hangman game\Hangman game\obj\Debug\Hangman game.pdb

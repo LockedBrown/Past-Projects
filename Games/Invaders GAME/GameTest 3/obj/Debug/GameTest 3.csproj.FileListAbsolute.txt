@@ -1,0 +1,30 @@
+G:\Studio 2017 Files\GameTest 3\GameTest 3\bin\Debug\GameTest 3.exe.config
+G:\Studio 2017 Files\GameTest 3\GameTest 3\bin\Debug\GameTest 3.exe
+G:\Studio 2017 Files\GameTest 3\GameTest 3\bin\Debug\GameTest 3.pdb
+G:\Studio 2017 Files\GameTest 3\GameTest 3\obj\Debug\GameTest 3.csprojAssemblyReference.cache
+G:\Studio 2017 Files\GameTest 3\GameTest 3\obj\Debug\GameTest_3.Properties.Resources.resources
+G:\Studio 2017 Files\GameTest 3\GameTest 3\obj\Debug\GameTest 3.csproj.GenerateResource.cache
+G:\Studio 2017 Files\GameTest 3\GameTest 3\obj\Debug\GameTest 3.csproj.CoreCompileInputs.cache
+G:\Studio 2017 Files\GameTest 3\GameTest 3\obj\Debug\GameTest 3.exe
+G:\Studio 2017 Files\GameTest 3\GameTest 3\obj\Debug\GameTest 3.pdb
+G:\Studio 2017 Files\GameTest 3\GameTest 3\obj\Debug\GameTest_3.SpaceInvaders.resources
+G:\Studio 2017 Files\Invaders GAME\GameTest 3\bin\Debug\GameTest 3.exe.config
+G:\Studio 2017 Files\Invaders GAME\GameTest 3\bin\Debug\GameTest 3.exe
+G:\Studio 2017 Files\Invaders GAME\GameTest 3\bin\Debug\GameTest 3.pdb
+G:\Studio 2017 Files\Invaders GAME\GameTest 3\obj\Debug\GameTest 3.csprojAssemblyReference.cache
+G:\Studio 2017 Files\Invaders GAME\GameTest 3\obj\Debug\GameTest_3.SpaceInvaders.resources
+G:\Studio 2017 Files\Invaders GAME\GameTest 3\obj\Debug\GameTest_3.Properties.Resources.resources
+G:\Studio 2017 Files\Invaders GAME\GameTest 3\obj\Debug\GameTest 3.csproj.GenerateResource.cache
+G:\Studio 2017 Files\Invaders GAME\GameTest 3\obj\Debug\GameTest 3.csproj.CoreCompileInputs.cache
+G:\Studio 2017 Files\Invaders GAME\GameTest 3\obj\Debug\GameTest 3.exe
+G:\Studio 2017 Files\Invaders GAME\GameTest 3\obj\Debug\GameTest 3.pdb
+E:\Studio 2017 Files\Invaders GAME\GameTest 3\bin\Debug\GameTest 3.exe.config
+E:\Studio 2017 Files\Invaders GAME\GameTest 3\bin\Debug\GameTest 3.exe
+E:\Studio 2017 Files\Invaders GAME\GameTest 3\bin\Debug\GameTest 3.pdb
+E:\Studio 2017 Files\Invaders GAME\GameTest 3\obj\Debug\GameTest 3.csprojAssemblyReference.cache
+E:\Studio 2017 Files\Invaders GAME\GameTest 3\obj\Debug\GameTest_3.SpaceInvaders.resources
+E:\Studio 2017 Files\Invaders GAME\GameTest 3\obj\Debug\GameTest_3.Properties.Resources.resources
+E:\Studio 2017 Files\Invaders GAME\GameTest 3\obj\Debug\GameTest 3.csproj.GenerateResource.cache
+E:\Studio 2017 Files\Invaders GAME\GameTest 3\obj\Debug\GameTest 3.csproj.CoreCompileInputs.cache
+E:\Studio 2017 Files\Invaders GAME\GameTest 3\obj\Debug\GameTest 3.exe
+E:\Studio 2017 Files\Invaders GAME\GameTest 3\obj\Debug\GameTest 3.pdb

@@ -1,0 +1,6 @@
+Home page - include contact us, about us, location, information about the business what they are about and what they do
+Jobs - include the job description, what skills are needs, title of job
+Application - include form to apply for job and validation
+Staff - include staff picture and detail of staff
+More - Links to other websites
+
